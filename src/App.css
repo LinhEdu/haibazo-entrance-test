@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: white;
+}
+
+.app {
+  width: 900px;
+  margin: 40px auto;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 500;
+}
+
+.row {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 12px;
+  font-size: 22px;
+  color: #999;
+}
+
+.row label {
+  width: 130px;
+  text-align: right;
+}
+
+input {
+  width: 260px;
+  height: 34px;
+  font-size: 22px;
+  background: #333;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+}
+
+.button-row {
+  display: flex;
+  gap: 12px;
+  margin-left: 88px;
+  margin-bottom: 16px;
+}
+
+.button-row button {
+  width: 150px;
+  height: 40px;
+  background: #666;
+  color: white;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.game-area {
+  width: 800px;
+  height: 520px;
+  border: 2px solid #333;
+  position: relative;
+  overflow: hidden;
+}
+
+.point {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1.5px solid #777;
+  background: white;
+  color: #333;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.point.removing {
+  background: #d94b2b;
+  color: white;
+  border-color: #d94b2b;
+}
+
+.point small {
+  font-size: 11px;
+  margin-top: 3px;
+}
+
+.next {
+  text-align: center;
+  margin-top: 12px;
+  color: #999;
+  font-size: 20px;
+}
+
+.gameover {
+  color: #c0392b;
+}
+
+.cleared {
+  color: #4e9b3d;
+}
