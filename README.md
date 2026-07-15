@@ -17,3 +17,6 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ## Test Git Commit
 Tôi đang thử nghiệm tạo nhánh và push code lên Git lần đầu tiên!
+
+## Test Git Commit
+Tôi đang thử nghiệm tạo nhánh và push code lên Git lần đầu tiên! lần 2
